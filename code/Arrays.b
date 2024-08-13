@@ -45,6 +45,7 @@ PROGRAM Arrays
         NEXT c
     NEXT r
 
+	
     * Convert dimensioned array to dynamic array
     MATBUILD arr2 FROM arr USING CHAR(32)
     PRINT arr2 ;* 1 2 3 4 5 6
